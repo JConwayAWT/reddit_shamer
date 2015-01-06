@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "No Reddit!",
+  "description": "Yells at you for being on Reddit for too long.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+       "19": "icon.png",
+       "38": "icon_38.png"
+    }
+  },
+  "background":{
+    "scripts": ["no_reddit_background.js","jquery.min.js"]
+  },
+  "permissions": [
+    "tabs","activeTab","notifications"
+  ],
+  "icons": {
+    "48": "icon_38.png"
+  }
+}
